@@ -3,11 +3,18 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/MY%20PC/Documents/PBO/Tugas6PBO/src/edu/ferialrpt/latihanmvcjdbc/impl/MahasiswaDaoImpl.java</file>
-            <file>file:/C:/Users/MY%20PC/Documents/PBO/Tugas6PBO/src/edu/ferialrpt/latihanmvcjdbc/model/MahasiswaModel.java</file>
-            <file>file:/C:/Users/MY%20PC/Documents/PBO/Tugas6PBO/src/edu/ferialrpt/latihanmvcjdbc/controller/MahasiswaController.java</file>
-            <file>file:/C:/Users/MY%20PC/Documents/PBO/Tugas6PBO/src/edu/ferialrpt/latihanmvcjdbc/model/TabelMahasiswaModel.java</file>
-            <file>file:/C:/Users/MY%20PC/Documents/PBO/Tugas6PBO/src/edu/ferialrpt/latihanmvcjdbc/event/MahasiswaListener.java</file>
+            <file>file:/C:/Users/MY%20PC/Documents/PBO/Tugas6PBO/src/edu/ferialrpt/latihanmvcjdbc/impl/PelangganDaoImpl.java</file>
+            <file>file:/C:/Users/MY%20PC/Documents/PBO/Tugas6PBO/src/edu/ferialrpt/latihanmvcjdbc/model/TabelPelangganModel.java</file>
+            <file>file:/C:/Users/MY%20PC/Documents/PBO/Tugas6PBO/src/edu/ferialrpt/latihanmvcjdbc/event/PelangganListener.java</file>
+            <file>file:/C:/Users/MY%20PC/Documents/PBO/Tugas6PBO/src/edu/ferialrpt/latihanmvcjdbc/main/Tugas6PBO.java</file>
+            <file>file:/C:/Users/MY%20PC/Documents/PBO/Tugas6PBO/src/edu/ferialrpt/latihanmvcjdbc/view/PelangganView.java</file>
+            <file>file:/C:/Users/MY%20PC/Documents/PBO/Tugas6PBO/src/edu/ferialrpt/latihanmvcjdbc/entity/Pelanggan.java</file>
+            <file>file:/C:/Users/MY%20PC/Documents/PBO/Tugas6PBO/src/edu/ferialrpt/latihanmvcjdbc/model/PelangganModel.java</file>
+            <file>file:/C:/Users/MY%20PC/Documents/PBO/Tugas6PBO/src/edu/ferialrpt/latihanmvcjdbc/view/MainViewPelanggan.java</file>
+            <file>file:/C:/Users/MY%20PC/Documents/PBO/Tugas6PBO/src/edu/ferialrpt/latihanmvcjdbc/controller/PelangganController.java</file>
+            <file>file:/C:/Users/MY%20PC/Documents/PBO/Tugas6PBO/src/edu/ferialrpt/latihanmvcjdbc/database/BarbershopDatabase.java</file>
+            <file>file:/C:/Users/MY%20PC/Documents/PBO/Tugas6PBO/src/edu/ferialrpt/latihanmvcjdbc/error/PelangganException.java</file>
+            <file>file:/C:/Users/MY%20PC/Documents/PBO/Tugas6PBO/src/edu/ferialrpt/latihanmvcjdbc/service/PelangganDao.java</file>
         </group>
     </open-files>
 </project-private>

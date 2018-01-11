@@ -5,35 +5,35 @@
  */
 package edu.ferialrpt.latihanmvcjdbc.main;
 
-import edu.ferialrpt.latihanmvcjdbc.database.MahasiswaDatabase;
-import edu.ferialrpt.latihanmvcjdbc.entity.Mahasiswa;
-import edu.ferialrpt.latihanmvcjdbc.error.mahasiswaException;
-import edu.ferialrpt.latihanmvcjdbc.service.MahasiswaDao;
-import edu.ferialrpt.latihanmvcjdbc.view.MainViewMahasiswa;
+import edu.ferialrpt.latihanmvcjdbc.database.BarbershopDatabase;
+import edu.ferialrpt.latihanmvcjdbc.entity.Pelanggan;
+import edu.ferialrpt.latihanmvcjdbc.error.PelangganException;
 import java.sql.SQLException;
 import java.util.List;
 import javax.swing.SwingUtilities;
+import edu.ferialrpt.latihanmvcjdbc.service.PelangganDao;
+import edu.ferialrpt.latihanmvcjdbc.view.MainViewPelanggan;
 
 /**
  *
- * @author MY PC
+ * @author NIM:10116553 | Nama : Ferial Rachmadiputra | Kelas : PBO-12
  */
 public class Tugas6PBO {
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) throws SQLException, mahasiswaException {
+    public static void main(String[] args) throws SQLException, PelangganException {
         // TODO code application logic here
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
                 try {
-                    MainViewMahasiswa mahasiswa = new MainViewMahasiswa();
-                    mahasiswa.loadDatabase();
-                    mahasiswa.setVisible(true);
+                    MainViewPelanggan pelanggan = new MainViewPelanggan();
+                    pelanggan.loadDatabase();
+                    pelanggan.setVisible(true);
                 } catch (SQLException ex) {
-                } catch (mahasiswaException ex) {
+                } catch (PelangganException ex) {
                 }
 
             }
