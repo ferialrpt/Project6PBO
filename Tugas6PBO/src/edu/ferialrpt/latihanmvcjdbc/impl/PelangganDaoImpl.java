@@ -23,6 +23,7 @@ import edu.ferialrpt.latihanmvcjdbc.service.PelangganDao;
 public class PelangganDaoImpl implements PelangganDao {
 
     private Connection connection;
+
     private final String insertPelanggan = "INSERT INTO PELANGGAN"
             + "(NAMA, ALAMAT, TELEPON, EMAIL) VALUES"
             + "(?,?,?,?)";

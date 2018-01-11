@@ -23,7 +23,7 @@ public class BarbershopDatabase {
     public static Connection getConnection() throws SQLException {
         if (connection == null) {
             MysqlDataSource dataSource = new MysqlDataSource();
-            dataSource.setUrl("jdbc:mysql://localhost:3306/barbershop");
+            dataSource.setUrl("jdbc:mysql://localhost:3306/kingsbarbershop");
             dataSource.setUser("root");
             dataSource.setPassword("");
             connection = dataSource.getConnection();
